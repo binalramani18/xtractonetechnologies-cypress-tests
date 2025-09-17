@@ -24,27 +24,6 @@ This project automates functional and exploratory testing of the Xtract One Tech
 - JavaScript / Node.js: Writing test scripts.
 
 
- Run & Learn
-- Clone the repository:
-```bash
-git clone <repository-url>
-Install dependencies:
-
-bash
-Copy code
-npm install
-Run Cypress tests:
-
-bash
-Copy code
-# GUI mode
-npx cypress open
-
-# Headless mode
-npx cypress run
-
-
-
 Bug Report Example
 
 Bug Title:
@@ -69,6 +48,31 @@ Environment:
 •	Browser: Chrome (latest version, e.g., 140.0.0.0)
 •	Application URL : https://xtractone.com/contact/
 •	Build/Version: Production
+
+
+
+ Run & Learn
+- Clone the repository:
+```bash
+git clone <repository-url>
+Install dependencies:
+
+bash
+Copy code
+npm install
+Run Cypress tests:
+
+bash
+Copy code
+# GUI mode
+npx cypress open
+
+# Headless mode
+npx cypress run
+
+
+
+
 
 
 
