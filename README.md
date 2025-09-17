@@ -27,31 +27,39 @@ This project automates functional and exploratory testing of the Xtract One Tech
 Bug Report Example
 
 Bug Title:
-Contact form allows invalid characters in First name, Last name, Country and State/Region fields
+Contact form allows invalid characters in First name, Last name, Country and State/Region fields.
+
 Description:
+
 •	Steps to Reproduce:
 1.	Open contact form.
 2.	Enter invalid values: bbjknkjkj# for Country and gghjgghki* for State/Region.
 3.	Fill other fields with valid data.
 4.	Submit the form.
+   
 •	Expected Result:
-o	Form should not accept special characters in Country or State/Region.
-o	Validation message should appear: “Please enter a valid country/state.”
+o	Form should not accept special characters in first name, last name, Country or State/Region.
+o	Validation message should appear: “Please enter a valid country/state.
+
 •	Actual Result:
 o	Form submits successfully with invalid characters.
+
 •	Impact / Notes:
 o	Could lead to invalid data in backend.
+
 Severity/Priority
 •	Low to Medium → because invalid data can affect backend processes.
+
 Environment:
-•	Device/OS: Windows 10
-•	Browser: Chrome (latest version, e.g., 140.0.0.0)
+•	Device/OS: 
+•	Browser: Chrome 
 •	Application URL : https://xtractone.com/contact/
 •	Build/Version: Production
 
 
 
  Run & Learn
+ 
 - Clone the repository:
 ```bash
 git clone <repository-url>
