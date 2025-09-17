@@ -47,14 +47,16 @@ o	Form submits successfully with invalid characters.
 •	Impact / Notes:
 o	Could lead to invalid data in backend.
 
-Severity/Priority
-•	Low to Medium → because invalid data can affect backend processes.
+•Severity/Priority
+o	Low to Medium → because invalid data can affect backend processes.
 
-Environment:
-•	Device/OS: 
-•	Browser: Chrome 
-•	Application URL : https://xtractone.com/contact/
-•	Build/Version: Production
+•Attachments/Screenshots: 
+
+•	Environment:
+o	Device/OS: 
+o	Browser: Chrome 
+o	Application URL : https://xtractone.com/contact/
+o	Build/Version: Production
 
 
 
